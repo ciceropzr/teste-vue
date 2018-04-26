@@ -79,7 +79,7 @@
     <div class="management-budgeting">
       <div class="budgeting-title table-label">
         <div>
-          <h2>Centros de Custo</h2>
+          <h2>Orçamentos</h2>
           <p>Ano:</p>
           <select>
             <option><a href="#">Selecione aqui</a></option>
@@ -645,6 +645,11 @@ a {
   background-color: rgba(230, 241, 250, 1);
   text-align: left;
   font-weight: 700;
+  height: 35px;
+}
+
+.table tr tr{
+  height: 30px;
 }
 
 .budgeting-title{

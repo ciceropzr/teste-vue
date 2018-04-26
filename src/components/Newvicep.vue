@@ -4,10 +4,13 @@
       <button class="newvicep-botton">Nova Vice Presidência</button>
     </div>
 
-    <div class="">
-      <h2>VP Marketing</h2>
-      <table>
-        <tr></tr>
+    <div class="table-boxes">
+      <h2 class="table-boxes_title">VP Marketing</h2>
+      <table class="table">
+        <tr class="table-label">
+          <td>VP Marketing</td>
+          <td>+ Nova Gerência</td>
+        </tr>
         <tr>
           <th>Gerência</th>
           <th>Centro de Custo</th>
@@ -19,8 +22,11 @@
           <td>1,2 m</td>
         </tr>
       </table>
-      <table>
-        <tr></tr>
+      <table class="table">
+        <tr class="table-label">
+          <td>Comercial</td>
+          <td>+ Nova Gerência</td>
+        </tr>
         <tr>
           <th>Gerência</th>
           <th>Centro de Custo</th>
@@ -47,8 +53,11 @@
           <td>1,2 m</td>
         </tr>
       </table>
-      <table>
-        <tr></tr>
+      <table class="table">
+        <tr class="table-label">
+          <td>Comunicação</td>
+          <td>+ Nova Gerência</td>
+        </tr>
         <tr>
           <th>Gerência</th>
           <th>Centro de Custo</th>
@@ -90,8 +99,11 @@
           <td>1,2 m</td>
         </tr>
       </table>
-      <table>
-        <tr></tr>
+      <table class="table">
+        <tr class="table-label">
+          <td>Fidelização e Rentação</td>
+          <td>+ Nova Gerência</td>
+        </tr>
         <tr>
           <th>Gerência</th>
           <th>Centro de Custo</th>
@@ -123,8 +135,11 @@
           <td>1,2 m</td>
         </tr>
       </table>
-      <table>
-        <tr></tr>
+      <table class="table">
+        <tr class="table-label">
+          <td>Fidelização e Rentação</td>
+          <td>+ Nova Gerência</td>
+        </tr>
         <tr>
           <th>Gerência</th>
           <th>Centro de Custo</th>
@@ -162,6 +177,33 @@ export default {
 
 <style scoped>
 .newvicep {
-  width: 80vw
+  width: 80vw;
+}
+
+.table {
+  width: 100%;
+  border: solid .5px rgba(193, 198, 200, 1);
+}
+
+.table-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-label td,
+.table-label td {
+  margin: 0
+}
+
+.table tr th, 
+.table tr td{
+  padding-left: 20px;
+  width: 33%;
+}
+
+.table tr th{
+  background-color: rgba(230, 241, 250, 1);
+  text-align: left;
+  font-weight: 700;
 }
 </style>
