@@ -22,11 +22,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
   font-size: 16px;
 }
 
-body {
-  margin: 0;
-  font-size: 16px;
-}
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

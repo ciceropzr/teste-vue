@@ -19,39 +19,39 @@
         </a>
       </div>
       <table class="users-table table">
-        <tr>
+        <tr class="drop-out">
           <th>Nome</th>
           <th>Gerência</th>
           <th>Perfil</th>
         </tr>
         <tr>
           <td>Miguel Ribeiro</td>
-          <td><a href="#">CRM e Orçamento</a></td>
+          <td class="drop-out"><a href="#">CRM e Orçamento</a></td>
           <td><a href="#">Administrador</a></td>
         </tr>
         <tr class="table-row-type2">
           <td>Edna Isabelle</td>
-          <td><a href="#">CRM e Orçamento</a></td>
+          <td class="drop-out"><a href="#">CRM e Orçamento</a></td>
           <td><a href="#">Administrador</a></td>
         </tr>
         <tr>
           <td>Mariana Freire</td>
-          <td><a href="#">CRM e Orçamento</a></td>
+          <td class="drop-out"><a href="#">CRM e Orçamento</a></td>
           <td><a href="#">Administrador</a></td>
         </tr>
         <tr class="table-row-type2">
           <td>José Mauro Ferreira</td>
-          <td><a href="#">Unidades, Fidelização e… (+4)</a></td>
+          <td class="drop-out"><a href="#">Unidades, Fidelização e… (+4)</a></td>
           <td><a href="#">Diretor</a></td>
         </tr>
         <tr>
           <td>Henrique da Gama</td>
-          <td><a href="#">Unidades</a></td>
+          <td class="drop-out"><a href="#">Unidades</a></td>
           <td><a href="#">Gerente</a></td>
         </tr>
         <tr class="table-row-type2">
           <td>Fabiana Gouvea</td>
-          <td><a href="#">Unidades</a></td>
+          <td class="drop-out"><a href="#">Unidades</a></td>
           <td><a href="#">Usuário</a></td>
         </tr>
       </table>
@@ -63,14 +63,14 @@
         <span><a href="">Adicionar Centro de Custo</a></span>
       </div>
       <table class="costCenter-table table">
-        <tr>
+        <tr class="drop-out">
           <th>Identificador</th>
-          <th>Canal</th>
+          <th class="drop-out">Canal</th>
           <th>Código</th>
         </tr>
         <tr>
           <td>Comercial - Captação EAD</td>
-          <td>Corporativo</td>
+          <td class="drop-out">Corporativo</td>
           <td><a href="">33000025704</a></td>
         </tr>
       </table>
@@ -565,19 +565,12 @@ a {
   text-decoration: none;
 }
 
-template {
-  display: flex;
-  justify-content: center;
-  background-color: purple;
-}
-
 .management {
   display: flex;
   align-content: center;
   flex-direction: column;
   background-color: white;
   max-width: 80vw;
-
 }
 
 .management-title,
@@ -614,6 +607,10 @@ template {
   display: flex;
   flex-direction: column;
   width: 99%;
+}
+
+.table {
+  width: 100%
 }
 
 .table-label {
@@ -683,7 +680,9 @@ template {
 }
 
 .budgeting-month tr td {
+  color: rgba(128, 128, 128, 1);
   font-size: 15px;
+  font-weight: 600;
 }
 
 .month-column2 {
@@ -691,18 +690,60 @@ template {
   padding-right: 20px;
 }
 
-.month-bold {
-  font-weight: 600
+.month-bold td {
+  color: black !important; 
 }
 
-.month-cut {
-  color: rgba(230, 35, 35, 1);
-  font-weight: 600;
+.month-cut td {
+  color: rgba(230, 35, 35, 1) !important;
+  font-weight: 600; 
 }
 
-.month-total {
+.month-total td {
   background-color: white;
+  color: rgba(0, 84, 166, 1)!important;
   font-weight: 600;
   height: 40px;
+}
+
+@media (max-width: 768px) {
+  .management {
+    max-width: 100%
+  }
+
+  .management-title {
+    flex-direction: column;
+    width: 100vw
+  }
+
+  .management-title_box { 
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: auto;
+  }
+
+  .title_box-description {
+    margin-left: 10px;
+  }
+  
+  .budgeting-table {
+    flex-direction: column;
+  }
+
+  .budgeting-month {
+    width: 100%
+  }
+
+  .budgeting-month td {
+
+  }
+
+  .drop-out {
+    display: none;
+  }
+
+  .costCenter-table tr td {
+    width: auto;
+  }
 }
 </style>
