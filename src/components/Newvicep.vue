@@ -1,14 +1,14 @@
 <template>
   <section class="newvicep">
     <div class="newvicep-header">
-      <button class="newvicep-botton">Nova Vice Presidência</button>
+      <button class="newvicep-botton">+ Nova Vice Presidência</button>
     </div>
 
     <div class="table-boxes">
       <h2 class="table-boxes_title">VP Marketing</h2>
       <table class="table">
         <tr class="table-label">
-          <td>VP Marketing</td>
+          <td colspan="2" class="table-subtitle">VP Marketing</td>
           <td>+ Nova Gerência</td>
         </tr>
         <tr>
@@ -24,7 +24,7 @@
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Comercial</td>
+          <td colspan="2" class="table-subtitle">Comercial</td>
           <td>+ Nova Gerência</td>
         </tr>
         <tr>
@@ -55,7 +55,7 @@
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Comunicação</td>
+          <td colspan="2" class="table-subtitle">Comunicação</td>
           <td>+ Nova Gerência</td>
         </tr>
         <tr>
@@ -101,7 +101,7 @@
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Fidelização e Rentação</td>
+          <td colspan="2" class="table-subtitle">Fidelização e Rentação</td>
           <td>+ Nova Gerência</td>
         </tr>
         <tr>
@@ -137,7 +137,7 @@
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Fidelização e Rentação</td>
+          <td colspan="2" class="table-subtitle">Fidelização e Rentação</td>
           <td>+ Nova Gerência</td>
         </tr>
         <tr>
@@ -180,19 +180,54 @@ export default {
   width: 80vw;
 }
 
+.newvicep-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw;
+  height: 80px;
+  border: solid .5px rgba(193, 198, 200, 1);
+  padding: 20px;
+}
+
+.newvicep-botton {
+  height: 55px;
+  background-color: rgba(0, 113, 205, 1);
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.table-boxes {
+  border: solid .5px rgba(193, 198, 200, 1);
+  padding: 5px;
+}
+
+.table-boxes_title {
+  font-weight: 900
+}
+
 .table {
   width: 100%;
   border: solid .5px rgba(193, 198, 200, 1);
 }
 
 .table-label {
-  display: flex;
-  justify-content: space-between;
+  width: 33%;
 }
 
-.table-label td,
 .table-label td {
-  margin: 0
+  background-color: rgba(0, 84, 166, 1);
+  width: 20%;
+  margin: 0;
+  color: white;
+  text-align: right;
+}
+
+.table-subtitle {
+  text-align: center !important;
+  width: 80%;
 }
 
 .table tr th, 
