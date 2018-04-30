@@ -648,7 +648,7 @@ a {
   height: 35px;
 }
 
-.table tr tr{
+.table tr {
   height: 30px;
 }
 
