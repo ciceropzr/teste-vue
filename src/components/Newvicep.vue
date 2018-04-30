@@ -241,4 +241,26 @@ export default {
   text-align: left;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .newvicep {
+    width: 100%
+  }
+
+  .newvicep-header {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .newvicep-botton {
+    width: 90%;
+  }
+
+  .drop-out {
+    display: none;
+  }
+
+}
 </style>
