@@ -206,4 +206,45 @@ export default {
   text-align: left;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .newvicep {
+    max-width: 100%
+  }
+
+  .management-title {
+    flex-direction: column;
+    width: 100vw
+  }
+
+  .management-title_box { 
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: auto;
+  }
+
+  .title_box-description {
+    margin-left: 10px;
+  }
+  
+  .budgeting-table {
+    flex-direction: column;
+  }
+
+  .budgeting-month {
+    width: 100%
+  }
+
+  .budgeting-month td {
+
+  }
+
+  .drop-out {
+    display: none;
+  }
+
+  .costCenter-table tr td {
+    width: auto;
+  }
+}
 </style>

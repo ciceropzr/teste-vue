@@ -1,0 +1,15 @@
+<svg id="excluir" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.572 14.572">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_1340" data-name="Path 1340" class="cls-1" d="M5.607,12.715a1.218,1.218,0,0,0,1.214,1.214h4.857a1.218,1.218,0,0,0,1.214-1.214V5.429H5.607ZM13.5,3.607H11.375L10.768,3H7.732l-.607.607H5V4.821h8.5Z" transform="translate(-1.964 -1.179)"/>
+  <path id="Path_1341" data-name="Path 1341" class="cls-2" d="M0,0H14.572V14.572H0Z"/>
+</svg>
