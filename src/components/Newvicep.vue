@@ -1,164 +1,164 @@
 <template>
   <section class="newvicep">
     <div class="newvicep-header">
-      <button class="newvicep-botton">Nova Vice Presidência</button>
+      <button class="newvicep-botton">+ Nova Vice Presidência</button>
     </div>
 
     <div class="table-boxes">
       <h2 class="table-boxes_title">VP Marketing</h2>
       <table class="table">
         <tr class="table-label">
-          <td>VP Marketing</td>
+          <td colspan="2" class="table-subtitle">VP Marketing</td>
           <td>+ Nova Gerência</td>
         </tr>
-        <tr>
+        <tr class="drop-out">
           <th>Gerência</th>
           <th>Centro de Custo</th>
           <th>Orçamento</th>
         </tr>
         <tr>
           <td>VP Marketing</td>
-          <td>33000025704, 33000025723, 330…</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33000025704, 33000025723, 330…</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Comercial</td>
+          <td colspan="2" class="table-subtitle">Comercial</td>
           <td>+ Nova Gerência</td>
         </tr>
-        <tr>
+        <tr class="drop-out">
           <th>Gerência</th>
           <th>Centro de Custo</th>
           <th>Orçamento</th>
         </tr>
         <tr>
           <td>Call Center Captação</td>
-          <td>33000025798</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33000025798</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Captação EAD</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Captação Presencial</td>
-          <td>33234025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33234025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Unidades Comercial</td>
-          <td>33056725704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33056725704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Comunicação</td>
+          <td colspan="2" class="table-subtitle">Comunicação</td>
           <td>+ Nova Gerência</td>
         </tr>
-        <tr>
+        <tr class="drop-out">
           <th>Gerência</th>
           <th>Centro de Custo</th>
           <th>Orçamento</th>
         </tr>
         <tr>
           <td>Assoria de Imprensa</td>
-          <td>33000025798</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33000025798</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Branding</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Marketing Relacionamento</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Produção</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Redes Sociais</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Trade Marketing EAD</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Trade Marketing Presencial</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Fidelização e Rentação</td>
+          <td colspan="2" class="table-subtitle">Fidelização e Rentação</td>
           <td>+ Nova Gerência</td>
         </tr>
-        <tr>
+        <tr class="drop-out">
           <th>Gerência</th>
           <th>Centro de Custo</th>
           <th>Orçamento</th>
         </tr>
-         <tr>
+        <tr>
           <td>BI</td>
-          <td>33000025798</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33000025798</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Call Center Retenção</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>DDM (Campanhas)</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Fidelização e Retenção</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Unidades (Fidel. e Reten.)</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
       </table>
       <table class="table">
         <tr class="table-label">
-          <td>Fidelização e Rentação</td>
+          <td colspan="2" class="table-subtitle">Fidelização e Rentação</td>
           <td>+ Nova Gerência</td>
         </tr>
-        <tr>
+        <tr class="drop-out">
           <th>Gerência</th>
           <th>Centro de Custo</th>
           <th>Orçamento</th>
         </tr>
-         <tr>
+        <tr>
           <td>CRM e Orçamento</td>
-          <td>33000025798</td>
-          <td>1,2 m</td>
+          <td class="drop-out">33000025798</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Mídia On</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
         <tr>
           <td>Mídia Off</td>
-          <td>23000025704</td>
-          <td>1,2 m</td>
+          <td class="drop-out">23000025704</td>
+          <td class="drop-out">1,2 m</td>
         </tr>
       </table>
     </div> 
@@ -180,25 +180,64 @@ export default {
   width: 80vw;
 }
 
+.newvicep-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80vw;
+  height: 80px;
+  border: solid .5px rgba(193, 198, 200, 1);
+  padding: 20px;
+}
+
+.newvicep-botton {
+  height: 55px;
+  background-color: rgba(0, 113, 205, 1);
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.table-boxes {
+  border: solid .5px rgba(193, 198, 200, 1);
+  padding: 5px;
+}
+
+.table-boxes_title {
+  font-weight: 900
+}
+
 .table {
   width: 100%;
   border: solid .5px rgba(193, 198, 200, 1);
 }
 
 .table-label {
-  display: flex;
-  justify-content: space-between;
+  width: 33%;
+  height: 40px !important;
 }
 
-.table-label td,
 .table-label td {
-  margin: 0
+  background-color: rgba(0, 84, 166, 1);
+  width: 20%;
+  margin: 0;
+  color: white;
+  text-align: right;
+}
+
+.table-subtitle {
+  text-align: center !important;
+  width: 80%;
 }
 
 .table tr th, 
 .table tr td{
   padding-left: 20px;
   width: 33%;
+}
+.table tr {
+  height: 30px;
 }
 
 .table tr th{
@@ -235,8 +274,32 @@ export default {
     width: 100%
   }
 
-  .budgeting-month td {
+  .table-boxes {
+    border: solid .5px rgba(193, 198, 200, 1);
+    padding: 5px;
+  }
 
+  .newvicep {
+    width: 100%
+  }
+
+  .newvicep-header {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .newvicep-botton {
+    width: 90%;
+  }
+
+  .table-boxes_title {
+    padding-left: 20px;
+  }
+
+  .table tr td {
+    width: auto;
   }
 
   .drop-out {

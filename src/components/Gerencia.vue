@@ -93,7 +93,7 @@
       <div class="budgeting-table">
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Janeiro</th>
+            <th colspan="2">Janeiro</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -131,7 +131,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Fevereiro</th>
+            <th colspan="2">Fevereiro</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -169,7 +169,7 @@
         
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Março</th>
+            <th colspan="2">Março</th>
           </tr>
            <tr class="month-bold">
             <td>Opex</td>
@@ -207,7 +207,7 @@
         
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Abril</th>
+            <th colspan="2">Abril</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -245,7 +245,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Maio</th>
+            <th colspan="2">Maio</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -283,7 +283,7 @@
         
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Junho</th>
+            <th colspan="2">Junho</th>
           </tr>
            <tr class="month-bold">
             <td>Opex</td>
@@ -321,7 +321,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Julho</th>
+            <th colspan="2">Julho</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -359,7 +359,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Agosto</th>
+            <th colspan="2">Agosto</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -397,7 +397,7 @@
         
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Setembro</th>
+            <th colspan="2">Setembro</th>
           </tr>
            <tr class="month-bold">
             <td>Opex</td>
@@ -435,7 +435,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Outubro</th>
+            <th colspan="2">Outubro</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -473,7 +473,7 @@
 
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Novembro</th>
+            <th colspan="2">Novembro</th>
           </tr>
           <tr class="month-bold">
             <td>Opex</td>
@@ -511,7 +511,7 @@
         
         <table class="budgeting-month table">
           <tr>
-            <th colspan="3">Dezembro</th>
+            <th colspan="2">Dezembro</th>
           </tr>
            <tr class="month-bold">
             <td>Opex</td>
@@ -648,7 +648,7 @@ a {
   height: 35px;
 }
 
-.table tr tr{
+.table tr {
   height: 30px;
 }
 
